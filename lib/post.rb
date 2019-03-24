@@ -14,8 +14,8 @@ class Post
   end 
   
   def author_name
-    if post.author #=> returns the object of artist name?
-      self.author.title
+    if post.author 
+      self.author.name
     else
       nil 
     end 
